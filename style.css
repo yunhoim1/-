@@ -5,83 +5,20 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
+    background-color: #f0f0f0;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
-}
-
-header {
     text-align: center;
-    color: white;
-    margin-bottom: 40px;
-    padding: 30px 0;
 }
 
-header h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.subtitle {
-    font-size: 1.2em;
-    opacity: 0.9;
-}
-
-main {
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    margin-bottom: 40px;
-}
-
-.content {
-    padding: 30px;
-    border-bottom: 1px solid #eee;
-}
-
-.content:last-child {
-    border-bottom: none;
-}
-
-.content h2 {
-    color: #667eea;
-    margin-bottom: 15px;
-    font-size: 1.8em;
-}
-
-.content p {
-    color: #666;
-    font-size: 1em;
-}
-
-footer {
-    text-align: center;
-    color: white;
-    padding: 20px;
-    opacity: 0.9;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 2em;
-    }
-    
-    .content {
-        padding: 20px;
-    }
-    
-    .content h2 {
-        font-size: 1.4em;
-    }
+h1 {
+    font-size: 5em;
+    color: #333;
+    font-weight: bold;
 }
